@@ -1,4 +1,4 @@
-# 🌐 Week 1: Static Website on Azure Storage
+# 🌐 Static Website on Azure Storage
 
 ## 📌 Project Summary
 In this project, I deployed a **static HTML website** using **Azure Blob Storage’s Static Website feature**.  
