@@ -7,7 +7,7 @@ Each project is designed to be **free-tier friendly** while showcasing **core Az
 
 ## 📑 Project Roadmap
 
-### [Static Website on Azure Storage](./static-website-azure-storage/)
+### [[Static Website on Azure Storage](./static-website-azure-storage/)](https://github.com/jamesdevs-404/azure-learning-portfolio/tree/main/static-website-azure-storage%20)
 - Deploy a static HTML website using **Azure Storage Static Website** feature.  
 - **Concepts Learned**:  
   - CapEx vs OpEx, Consumption-based model  
