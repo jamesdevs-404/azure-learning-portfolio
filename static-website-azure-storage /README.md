@@ -26,7 +26,7 @@ This demonstrates how to build a **serverless, scalable, and cost-effective** ho
 ---
 
 ### 2. Provisioned Storage Account
-- Name: `stportfolioXXXX`  
+- Name: `stportfoliojjdv15`  
 - Region: East US  
 - Redundancy: Locally-redundant storage (LRS)  
 - Service: Blob Storage  
