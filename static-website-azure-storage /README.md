@@ -55,7 +55,7 @@ This demonstrates how to build a **serverless, scalable, and cost-effective** ho
 
 ### 5. Verified Live Website
 - Accessed via the **Primary Endpoint**:  
-  `https://stportfolioXXXX.z13.web.core.windows.net`  
+  `https://stportfoliojjdv15.z13.web.core.windows.net`  
 
 ![Live Website](screenshots/live-site.png)
 
