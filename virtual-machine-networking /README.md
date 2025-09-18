@@ -43,7 +43,7 @@ This project demonstrates **core Azure services** (compute, networking, monitori
    ![VM Setup](screenshots/vm-setup.png)  
 
 8. **Create Log Analytics Workspace (LAW)** → `law-vm-lab`
-   ![Log Analytics Workspace](screenshots/insights-law.png)
+   ![Log Analytics Workspace](monitoring/insights-law.png)
 
 
 10. Create Action Group `ag-vm-lab` (email)
