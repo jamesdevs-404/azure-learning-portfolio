@@ -17,7 +17,7 @@ Each project is designed to be **free-tier friendly** while showcasing **core Az
 
 ---
 
-### [Week 2: Virtual Machine & Networking](week2-vm-networking/README.md)
+### [Virtual Machine & Networking](week2-vm-networking/README.md)
 - Create a Windows/Linux VM in Azure and configure networking (NSGs, Public/Private IP).  
 - **Concepts Learned**:  
   - IaaS (Infrastructure as a Service)  
