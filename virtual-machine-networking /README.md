@@ -28,21 +28,20 @@ This project demonstrates **core Azure services** (compute, networking, monitori
    ![VNet + Subnet](screenshots/vnet.png)
    ![VNet + Subnet](screenshots/vnet-subnet.png)
     
-
-4. **Create NSG** → `nsg-vm-lab`  
+3. **Create NSG** → `nsg-vm-lab`  
    - Add inbound rule `Allow-SSH-From-MyIP` (priority `100`, source `<YOUR_IP>/32`, dest port `22`, protocol `TCP`, action `Allow`)  
    ![NSG Rules](screenshots/nsg-config.png)  
 
-5. **Create Public IP** → `pip-vm-lab` (Static, Standard)  
+4. **Create Public IP** → `pip-vm-lab` (Static, Standard)  
    ![Public IP](screenshots/pip-create.png)  
 
-6. **Create NIC** → `nic-vm-lab` attaching NSG + PIP  
+5. **Create NIC** → `nic-vm-lab` attaching NSG + PIP  
    ![NIC](screenshots/nic-create.png)  
 
-7. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
+6. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
    ![VM Setup](screenshots/vm-setup.png)  
 
-8. **Create Log Analytics Workspace (LAW)** → `law-vm-lab`
+7. **Create Log Analytics Workspace (LAW)** → `law-vm-lab`
    ![Log Analytics Workspace](monitoring/insights-law.png)
 
 
