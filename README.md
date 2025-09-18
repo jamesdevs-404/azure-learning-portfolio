@@ -17,7 +17,7 @@ Each project is designed to be **free-tier friendly** while showcasing **core Az
 
 ---
 
-### [Virtual Machine & Networking]([./virtual-machine-networking%20/README.md)
+### [Virtual Machine & Networking](./virtual-machine-networking%20/README.md)
 - Create a Windows/Linux VM in Azure and configure networking (NSGs, Public/Private IP).  
 - **Concepts Learned**:  
   - IaaS (Infrastructure as a Service)  
