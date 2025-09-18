@@ -1,6 +1,4 @@
-# azure-vm-lab
-
-## Week 2 — Virtual Machine + Networking + Monitoring
+# Virtual Machine + Networking + Monitoring
 
 ### Purpose
 Create a Linux VM, secure networking (VNet, Subnet, NSG allowing only SSH), and enable Azure Monitor (metrics + alerts).
