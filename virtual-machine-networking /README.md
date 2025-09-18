@@ -47,8 +47,8 @@ This project demonstrates **core Azure services** (compute, networking, monitori
 8. **Enable VM Insights** + attach via **Data Collection Rule** → `dcr-vm-lab`  
    ![Data Collection Rule](monitoring/dcr-setup.png)
 
-10. Create Action Group `ag-vm-lab` (email)
-11. Create Alert rule (e.g., CPU >80% for 5min) and attach `ag-vm-lab`
+9. **Metrics Dashboard** → Check CPU Usage  
+![Metrics CPU](monitoring/metrics-dashboard.png)
 
 ---
 
