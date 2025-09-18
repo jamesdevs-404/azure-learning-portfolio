@@ -42,8 +42,8 @@ This project demonstrates **core Azure services** (compute, networking, monitori
 7. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
    ![VM Setup](screenshots/vm-setup.png)  
 
-8. Portal → VM → Monitoring → Insights → Enable (select `law-vm-lab`)
-[Log Analytics Workspace](screenshots/insights-law.png)
+8. **Create Log Analytics Workspace (LAW)** → `law-vm-lab`
+   ![Log Analytics Workspace](screenshots/insights-law.png)
 
 
 10. Create Action Group `ag-vm-lab` (email)
