@@ -13,11 +13,9 @@ This project demonstrates **core Azure services** (compute, networking, monitori
 - `/screenshots/pip-create.png` — Public IP overview  
 - `/screenshots/nic-create.png` — NIC overview  
 - `/screenshots/vm-setup.png` — VM creation summary  
-- `/screenshots/ssh-test.png` — SSH login to VM  
 - `/monitoring/insights-law.png` — Log Analytics Workspace + VM Insights  
 - `/monitoring/dcr-setup.png` — Data Collection Rule overview  
 - `/monitoring/metrics-dashboard.png` — CPU usage chart  
-- `/monitoring/alert-config.png` — Alert rule (CPU >80%)  
 
 ---
 
@@ -27,27 +25,28 @@ This project demonstrates **core Azure services** (compute, networking, monitori
    ![Resource Group](/screenshots/rg-create.png)  
 
 2. **Create VNet + Subnet** → `vnet-vm-lab` + `subnet-01`  
-   ![VNet + Subnet](/screenshots/vnet-subnet.png)  
+   ![VNet + Subnet](/screenshots/vnet-subnet.png)
+   ![VNet + Subnet](/screenshots/vnet.png) 
 
-3. **Create NSG** → `nsg-vm-lab`  
+4. **Create NSG** → `nsg-vm-lab`  
    - Add inbound rule `Allow-SSH-From-MyIP` (priority `100`, source `<YOUR_IP>/32`, dest port `22`, protocol `TCP`, action `Allow`)  
    ![NSG Rules](/screenshots/nsg-config.png)  
 
-4. **Create Public IP** → `pip-vm-lab` (Static, Standard)  
+5. **Create Public IP** → `pip-vm-lab` (Static, Standard)  
    ![Public IP](/screenshots/pip-create.png)  
 
-5. **Create NIC** → `nic-vm-lab` attaching NSG + PIP  
+6. **Create NIC** → `nic-vm-lab` attaching NSG + PIP  
    ![NIC](/screenshots/nic-create.png)  
 
-6. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
+7. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
    ![VM Setup](/screenshots/vm-setup.png)  
 
-7. **Test SSH connection**  
+8. **Test SSH connection**  
    ```bash
    ssh azureuser@<VM_Public_IP>
-8. Portal → VM → Monitoring → Insights → Enable (select `law-vm-lab`)
-9. Create Action Group `ag-vm-lab` (email)
-10. Create Alert rule (e.g., CPU >80% for 5min) and attach `ag-vm-lab`
+9. Portal → VM → Monitoring → Insights → Enable (select `law-vm-lab`)
+10. Create Action Group `ag-vm-lab` (email)
+11. Create Alert rule (e.g., CPU >80% for 5min) and attach `ag-vm-lab`
 
 ---
 
