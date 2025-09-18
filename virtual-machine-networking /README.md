@@ -22,7 +22,7 @@ This project demonstrates **core Azure services** (compute, networking, monitori
 ## 🚀 Portal Steps (Summary)
 
 1. **Create Resource Group** → `rg-vm-lab`  
-   ![Resource Group](/screenshots/rg-create.png)  
+   ![Resource Group](screenshots/rg-create.png)  
 
 2. **Create VNet + Subnet** → `vnet-vm-lab` + `subnet-01`  
    ![VNet + Subnet](/screenshots/vnet-subnet.png)
