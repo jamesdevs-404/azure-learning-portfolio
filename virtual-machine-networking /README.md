@@ -25,26 +25,27 @@ This project demonstrates **core Azure services** (compute, networking, monitori
    ![Resource Group](screenshots/rg-create.png)  
 
 2. **Create VNet + Subnet** → `vnet-vm-lab` + `subnet-01`  
-   ![VNet + Subnet](/screenshots/vnet-subnet.png)
-   ![VNet + Subnet](/screenshots/vnet.png) 
+   ![VNet + Subnet](screenshots/vnet.png)
+   ![VNet + Subnet](screenshots/vnet-subnet.png)
+    
 
 4. **Create NSG** → `nsg-vm-lab`  
    - Add inbound rule `Allow-SSH-From-MyIP` (priority `100`, source `<YOUR_IP>/32`, dest port `22`, protocol `TCP`, action `Allow`)  
-   ![NSG Rules](/screenshots/nsg-config.png)  
+   ![NSG Rules](screenshots/nsg-config.png)  
 
 5. **Create Public IP** → `pip-vm-lab` (Static, Standard)  
-   ![Public IP](/screenshots/pip-create.png)  
+   ![Public IP](screenshots/pip-create.png)  
 
 6. **Create NIC** → `nic-vm-lab` attaching NSG + PIP  
-   ![NIC](/screenshots/nic-create.png)  
+   ![NIC](screenshots/nic-create.png)  
 
 7. **Create VM** → `vm-linux-lab` (Ubuntu, SSH key auth)  
-   ![VM Setup](/screenshots/vm-setup.png)  
+   ![VM Setup](screenshots/vm-setup.png)  
 
-8. **Test SSH connection**  
-   ```bash
-   ssh azureuser@<VM_Public_IP>
-9. Portal → VM → Monitoring → Insights → Enable (select `law-vm-lab`)
+8. Portal → VM → Monitoring → Insights → Enable (select `law-vm-lab`)
+[Log Analytics Workspace](screenshots/insights-law.png)
+
+
 10. Create Action Group `ag-vm-lab` (email)
 11. Create Alert rule (e.g., CPU >80% for 5min) and attach `ag-vm-lab`
 
